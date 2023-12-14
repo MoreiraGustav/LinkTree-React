@@ -1,6 +1,7 @@
 import './globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
+import ThemeProvider from './components/ThemeProvider'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -16,7 +17,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className="bg-[url('/bg-mobile-light.jpg')] dark:bg-[url('/bg-mobile.jpg')] bg-cover bg-center" >
+        <ThemeProvider>
+        {children}
+        </ThemeProvider>
+        </body>
     </html>
   )
 }
