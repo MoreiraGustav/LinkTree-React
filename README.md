@@ -2,7 +2,7 @@
 
 Este Projeto e um cartão de contato digital, estou utilizando React com NextJS e TypeScript.
 
-## funcionalidades
+## Funcionalidades
 
 - Modo Dark.
 - Links Para Redes Sociais.
