@@ -1,6 +1,6 @@
  # LinkTree-React
 
-Este Projeto e um cartão de contato digital, estou utilizando react com nextJS e TypeScript.
+Este Projeto e um cartão de contato digital, estou utilizando React com NextJS e TypeScript.
 
 ## funcionalidades
 
@@ -9,5 +9,5 @@ Este Projeto e um cartão de contato digital, estou utilizando react com nextJS 
 - Compatibilidade Responsiva.
 
 ## Capturas de Tela 
-![Modo Claro](./ScreenModoClaro.jpeg)
-![Modo Escuro](./ScreenModoEscuro.jpeg)
+![Modo Claro](/public/ScreenModoClaro.jpeg)
+![Modo Escuro](/public/ScreenModoEscuro.jpeg)
